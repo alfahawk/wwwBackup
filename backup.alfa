@@ -1,0 +1,11 @@
+#/bin/bash
+
+days_2_keep=10
+www_path='/var/www'
+backup_path='/home/murat/'
+
+if [ ! -d $backup_path ]; then
+  mkdir -p $backup_path
+fi
+
+
